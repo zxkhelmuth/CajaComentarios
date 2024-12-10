@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+form{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.img{
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/jfKfPfyJRdk/hq720.jpg?v=665dffb9&sqp=CJSuvLoG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhMmSID9JHTcK8tlO0dCNi6uebKQ);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #eee;
+    padding: 10px;  
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.comentarios > textarea{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#btn-comment{
+    background-color: #fff800;
+    width: 15%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#publicacionComentarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.comentario{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.cont-comentario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    width: 550PX;
+    height: 100%;
+}   
+
+.cont-comentario > span{
+    color: gray;
+    font-weight: bold;
+}
+
+.cont-comentario p {
+    white-space: normal; 
+    overflow: hidden;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+
+label{
+    font-weight: bold;
+}
+
